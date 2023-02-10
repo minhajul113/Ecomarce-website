@@ -335,3 +335,85 @@ footer p{
     text-align: center;
     color: #f2f2f2;
 }
+
+
+/*desktop*/
+ @media (min-width: 1024px){
+
+ }
+
+ /*Tablet View*/
+@media (min-width: 767px) and (max-width: 1023px){
+    .logo a {
+        font-size: 2rem;   
+      }
+      .section1btn h1 {
+        letter-spacing: 15px;
+      }
+      .section1btn h1, h2 {
+        font-family: Roboto;
+        font-weight: bold;
+        margin: 0px;
+        line-height: 39px;
+        font-size: 2rem;
+      }
+      .section1 img {
+        height: 246px;
+        margin-left: 38px;
+      }
+
+}
+
+
+
+
+/*Mobile View*/
+@media (max-width: 766px){
+    .notificationinput {
+        width: 310px;
+    }
+    .notification h1 {
+        font-size: 1rem;
+    }
+    .aboutbox h1 {
+        color: #333333;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-left: 35px;
+    }
+    .aboutbox h4 {
+        margin-left: 35px;
+      }
+    .aboutbox p{
+        margin-left: 35px;
+    }
+    .productsection > h3 {
+        margin: 120px;
+    
+    }
+    .logo a {
+        font-size: 1rem;
+        margin-left: -79px;
+      }
+      .searchbox{
+        top: 35px;
+        width: 140px;
+      }
+      .section1 img {
+        height: 100px;
+        margin-left: 24px;
+      }
+      .section1btn h1, h2 {
+        font-family: Roboto;
+        font-weight: bold;
+        margin: 0px;
+        line-height: 22px;
+        font-size: 1rem;
+        letter-spacing: 1px;
+      }
+      .btn {
+        width: 125px;
+        height: 41px;
+      }
+      
+}
